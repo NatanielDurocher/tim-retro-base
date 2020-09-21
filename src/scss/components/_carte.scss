@@ -1,0 +1,24 @@
+.cartes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.carte{
+  background-color: white;
+  border: solid 1px;
+  width: 450px;
+  height: 470px;
+
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.carte img{
+  width: 50%;
+}
+.carte p{
+  font-family: var(--font-primaire);
+  font-size: 18px;
+}
